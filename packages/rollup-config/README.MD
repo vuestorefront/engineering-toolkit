@@ -1,20 +1,31 @@
-[![vuestorefront/prettier-config](./prettier.jpg)]()
+# @vue-storefront/rollup-config
 
-# @vue-storefront/prettier-config
-
-> Common prettier configuration used in Vue Storefront projects
+> Common rollup configuration used in Vue Storefront integrations
 
 ## Usage
 
-#### Install
+### Install
 ```bash
-yarn add -D prettier @vue-storefront/prettier-config
+yarn add -D rollup @vue-storefront/rollup-config
 ```
 
-#### Config `prettier.config.js`
+### API Client config
 
-```javascript
-const config = require('@vuestorefront/prettier-config');
+```js
+import pkg from './package.json';
+import {
+  generateBaseConfig,
+  generateServerConfig
+} from '@vue-storefront/rollup-config';
 
-module.exports = config;
+export default [generateBaseConfig(pkg), generateServerConfig(pkg)];
+```
+
+### SDK module config
+
+```js
+import pkg from './package.json';
+import { generateSDKConfig } from '@vsf-integrations/rollup';
+
+export default [generateSDKConfig(pkg)];
 ```
