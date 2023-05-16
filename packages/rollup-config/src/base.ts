@@ -1,17 +1,20 @@
 import nodeResolve from '@rollup/plugin-node-resolve';
 import typescript from 'rollup-plugin-typescript2';
-import commonjs from '@rollup/plugin-commonjs';
 
 const extensions = ['.ts', '.js'];
-// TODO add debug mode with advanced sourcemaps
 
-export function generateServerConfig(pkg) {
+export function generateBaseConfig(pkg: any) {
   return {
-    input: 'src/index.server.ts',
+    input: 'src/index.ts',
     output: [
       {
-        file: pkg.server,
+        file: pkg.main,
         format: 'cjs',
+        sourcemap: true
+      },
+      {
+        file: pkg.module,
+        format: 'es',
         sourcemap: true
       }
     ],
@@ -24,12 +27,6 @@ export function generateServerConfig(pkg) {
         extensions
       }),
       typescript(),
-      commonjs({
-        extensions
-      }),
-      nodeResolve({
-        extensions
-      })
     ]
   };
 }

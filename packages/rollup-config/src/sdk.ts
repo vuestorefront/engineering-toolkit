@@ -1,6 +1,6 @@
 import typescript from 'rollup-plugin-typescript2';
 
-export function generateSDKConfig(pkg) {
+export function generateSDKConfig(pkg: any) {
   return {
     input: 'src/index.ts',
     output: [
