@@ -20,9 +20,6 @@
   "engines": {
     "node": ">=16.0.0"
   },
-  "dependencies": {
-    
-  },
   "publishConfig": {
     "access": "public"
   }
