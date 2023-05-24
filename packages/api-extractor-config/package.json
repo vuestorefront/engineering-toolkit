@@ -1,7 +1,7 @@
 {
   "name": "@vue-storefront/api-extractor-config",
-  "version": "0.0.2",
-  "main": "./index.json",
+  "version": "0.0.3",
+  "main": "./src/index.json",
   "files": [
     "src"
   ],
