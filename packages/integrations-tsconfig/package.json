@@ -1,9 +1,9 @@
 {
   "name": "@vue-storefront/integrations-tsconfig",
-  "version": "0.0.1",
-  "main": "./src/tsconfig.json",
+  "version": "0.0.2",
+  "main": "./tsconfig.json",
   "files": [
-    "src"
+    "tsconfig.json"
   ],
   "homepage": "https://github.com/vuestorefront/engineering-toolkit/packages/integrations-tsconfig",
   "contributors": [
