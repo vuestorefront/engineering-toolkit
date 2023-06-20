@@ -1,0 +1,27 @@
+{
+  "name": "@vue-storefront/integrations-eslint",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "files": [
+    "README.MD",
+    "*.js"
+  ],
+  "homepage": "https://github.com/vuestorefront/engineering-toolkit/packages/integrations-eslint",
+  "contributors": [
+    {
+      "name": "Wojciech Sikora",
+      "email": "wsikora@vuestorefront.io"
+    }
+  ],
+  "keywords": [
+    "eslint",
+    "integrations-eslint",
+    "vuestorefront"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
