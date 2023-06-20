@@ -1,13 +1,13 @@
-# @vue-storefront/integrations-tsconfig
+# @vue-storefront/eslint-config-integrations
 
-> Common tsconfig configuration for Vue Storefront Integrations
+> Common eslint configuration for Vue Storefront Integrations
 
 ## Usage
 
 ### Install
 
 ```bash
-yarn add -D @vue-storefront/integrations-tsconfig
+yarn add -D @vue-storefront/eslint-config-integrations
 ```
 
 ### Extending tsconfig
@@ -16,15 +16,6 @@ You need a configuration file in your package root:
 
 ```json
 {
-  "extends": "@vue-storefront/integrations-tsconfig",
-  "compilerOptions": {
-    "baseUrl": ".",
-    "outDir": "./lib",
-    "declarationDir": "./lib",
-    "declaration": true,
-    "rootDir": "./src"
-  },
-  "exclude": ["node_modules"],
-  "include": ["src/**/*"]
+  "extends": "@vue-storefront/eslint-config-integrations"
 }
 ```

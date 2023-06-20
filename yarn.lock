@@ -1901,6 +1901,20 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@vue-storefront/eslint-config-integrations@workspace:packages/integrations-eslint":
+  version: 0.0.0-use.local
+  resolution: "@vue-storefront/eslint-config-integrations@workspace:packages/integrations-eslint"
+  dependencies:
+    "@typescript-eslint/eslint-plugin": ^5.59.9
+    "@typescript-eslint/parser": ^5.59.9
+    eslint: ^8.42.0
+    eslint-config-airbnb-base: ^15.0.0
+    eslint-config-prettier: ^8.8.0
+    eslint-plugin-import: ^2.27.5
+    eslint-plugin-prettier: ^4.2.1
+  languageName: unknown
+  linkType: soft
+
 "@vue-storefront/eslint-config@workspace:packages/eslint-config":
   version: 0.0.0-use.local
   resolution: "@vue-storefront/eslint-config@workspace:packages/eslint-config"
@@ -1925,20 +1939,6 @@ __metadata:
     vue-eslint-parser: ^9.1.1
   peerDependencies:
     eslint: ">= 8"
-  languageName: unknown
-  linkType: soft
-
-"@vue-storefront/integrations-eslint@workspace:packages/integrations-eslint":
-  version: 0.0.0-use.local
-  resolution: "@vue-storefront/integrations-eslint@workspace:packages/integrations-eslint"
-  dependencies:
-    "@typescript-eslint/eslint-plugin": ^5.59.9
-    "@typescript-eslint/parser": ^5.59.9
-    eslint: ^8.42.0
-    eslint-config-airbnb-base: ^15.0.0
-    eslint-config-prettier: ^8.8.0
-    eslint-plugin-import: ^2.27.5
-    eslint-plugin-prettier: ^4.2.1
   languageName: unknown
   linkType: soft
 

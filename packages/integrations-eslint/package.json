@@ -1,6 +1,6 @@
 {
-  "name": "@vue-storefront/integrations-eslint",
-  "version": "0.0.2",
+  "name": "@vue-storefront/eslint-config-integrations",
+  "version": "0.0.1",
   "main": "index.js",
   "files": [
     "README.MD",
