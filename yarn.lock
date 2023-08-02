@@ -1856,17 +1856,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vercel/ncc@npm:^0.36.1":
-  version: 0.36.1
-  resolution: "@vercel/ncc@npm:0.36.1"
-  dependencies:
-    node-gyp: latest
-  bin:
-    ncc: dist/ncc/cli.js
-  checksum: dcb8db089b07a8fad64c24eef25be6bc2db7ba30582a03236e3a6d332c8653d93a45aba7fe0e01b6d64f3c5b54d23467539ac3664c113f54a9e59341ded79bf9
-  languageName: node
-  linkType: hard
-
 "@vue-storefront/api-extractor-config@workspace:packages/api-extractor-config":
   version: 0.0.0-use.local
   resolution: "@vue-storefront/api-extractor-config@workspace:packages/api-extractor-config"
@@ -1879,11 +1868,9 @@ __metadata:
   dependencies:
     "@actions/core": ^1.10.0
     "@actions/github": ^5.1.1
-    "@vercel/ncc": ^0.36.1
     eslint: 8.38.0
     license-checker-rseidelsohn: ^4.2.5
     prettier: ^2.8.7
-    typescript: ^5.0.3
   languageName: unknown
   linkType: soft
 
@@ -1893,11 +1880,9 @@ __metadata:
   dependencies:
     "@actions/core": ^1.10.0
     "@actions/github": ^5.1.1
-    "@vercel/ncc": ^0.36.1
     dpdm: ^3.13.0
     eslint: 8.38.0
     prettier: ^2.8.7
-    typescript: ^5.0.3
   languageName: unknown
   linkType: soft
 
@@ -8435,7 +8420,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^4.6.4 || ^5.0.0, typescript@npm:^5.0.2, typescript@npm:^5.0.3":
+"typescript@npm:^4.6.4 || ^5.0.0, typescript@npm:^5.0.2":
   version: 5.0.4
   resolution: "typescript@npm:5.0.4"
   bin:
@@ -8455,7 +8440,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.6.4 || ^5.0.0#~builtin<compat/typescript>, typescript@patch:typescript@^5.0.2#~builtin<compat/typescript>, typescript@patch:typescript@^5.0.3#~builtin<compat/typescript>":
+"typescript@patch:typescript@^4.6.4 || ^5.0.0#~builtin<compat/typescript>, typescript@patch:typescript@^5.0.2#~builtin<compat/typescript>":
   version: 5.0.4
   resolution: "typescript@patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=1f5320"
   bin:

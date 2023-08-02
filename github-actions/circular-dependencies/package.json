@@ -3,7 +3,7 @@
   "version": "1.0.6",
   "private": true,
   "homepage": "https://github.com/vuestorefront/engineering-toolkit/github-actions/circular-dependencies",
-  "main": "lib/index.js",
+  "main": "index.js",
   "prettier": "@vue-storefront/prettier-config",
   "contributors": [
     {
@@ -13,10 +13,7 @@
   ],
   "scripts": {
     "format": "prettier --write .",
-    "package": "ncc build --license licenses.txt --no-source-map-register",
-    "compile": "tsc",
-    "lint": "eslint --fix .",
-    "build": "yarn compile && yarn package"
+    "lint": "eslint --fix ."
   },
   "keywords": [
     "circular-dependency",
@@ -28,9 +25,7 @@
     "dpdm": "^3.13.0"
   },
   "devDependencies": {
-    "@vercel/ncc": "^0.36.1",
     "eslint": "8.38.0",
-    "prettier": "^2.8.7",
-    "typescript": "^5.0.3"
+    "prettier": "^2.8.7"
   }
 }
