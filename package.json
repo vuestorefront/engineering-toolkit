@@ -11,8 +11,8 @@
     "lint": "npx turbo run lint",
     "format": "npx turbo run format",
     "build": "npx turbo run build",
-    "changeset:version": "yarn build && yarn changeset version",
-    "changest:publish": "yarn build && yarn changeset publish"
+    "changesets:version": "yarn build && yarn changeset version",
+    "changesets:publish": "yarn build && yarn changeset publish"
   },
   "workspaces": {
     "packages": [
