@@ -1,6 +1,6 @@
 # @alokai/eslint-config
 
-> Common eslint configuration used in Vue Storefront projects
+> Common eslint configuration used in alokai projects
 
 ## Usage
 

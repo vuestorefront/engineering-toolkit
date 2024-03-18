@@ -1,6 +1,6 @@
 # @alokai/integrations-tsconfig
 
-> Common tsconfig configuration for Vue Storefront Integrations
+> Common tsconfig configuration for Alokai Integrations
 
 ## Usage
 

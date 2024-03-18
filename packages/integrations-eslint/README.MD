@@ -1,6 +1,6 @@
 # @alokai/eslint-config-integrations
 
-> Common eslint configuration for Vue Storefront Integrations
+> Common eslint configuration for Alokai Integrations
 
 ## Usage
 
