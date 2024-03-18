@@ -1,4 +1,4 @@
-# @vue-storefront/rollup-config
+# @alokai/rollup-config
 
 > Common rollup configuration used in Vue Storefront integrations
 

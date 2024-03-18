@@ -1,6 +1,4 @@
-[![vuestorefront/eslint-config](./eslint.jpg)]()
-
-# @vue-storefront/eslint-config
+# @alokai/eslint-config
 
 > Common eslint configuration used in Vue Storefront projects
 

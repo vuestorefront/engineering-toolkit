@@ -1,4 +1,4 @@
-# @vue-storefront/circular-dependencies
+# @alokai/circular-dependencies
 
 > This action detects circular dependencies in the project
 
