@@ -1,4 +1,4 @@
-# @alokai/prettier-config
+# @vue-storefront/prettier-config
 
 > Common prettier configuration used in Alokai projects
 

@@ -1,4 +1,4 @@
-# @alokai/jest-config
+# @vue-storefront/jest-config
 
 > Common Jest base configuration for Alokai Integrations
 

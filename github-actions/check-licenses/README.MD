@@ -1,4 +1,4 @@
-# @alokai/check-licenses
+# @vue-storefront/check-licenses
 
 > This action analyses software licenses for used dependencies in the project
 

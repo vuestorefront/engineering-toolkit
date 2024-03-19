@@ -1,4 +1,4 @@
-# @alokai/api-extractor-config
+# @vue-storefront/api-extractor-config
 
 > Common API Extractor configuration for Alokai Integrations
 

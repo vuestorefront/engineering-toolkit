@@ -1,4 +1,4 @@
-# @alokai/engineering-toolkit
+# @vuestorefront/engineering-toolkit
 
 > Alokai engineering standards
 

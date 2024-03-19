@@ -1,4 +1,4 @@
-# @alokai/eslint-config
+# @vue-storefront/eslint-config
 
 > Common eslint configuration used in alokai projects
 

@@ -1,4 +1,4 @@
-# @alokai/integrations-tsconfig
+# @vue-storefront/integrations-tsconfig
 
 > Common tsconfig configuration for Alokai Integrations
 
